@@ -1,0 +1,49 @@
+{
+  "name": "Archive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "jam3ty application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "node.js",
+    "jwt",
+    "authentication",
+    "express",
+    "mysql"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.9.2",
+    "https": "^1.0.0",
+    "joi": "^17.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.6",
+    "pg": "^8.3.3",
+    "request": "^2.88.2",
+    "sequelize": "^6.5.0",
+    "vimeo": "^2.1.1"
+  },
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.4.x"
+  }
+}
